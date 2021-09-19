@@ -7,13 +7,13 @@ import About from '..';
 afterEach(cleanup);
 
 describe('About component', () => {
-    // First Test
+    // baseline test
     //('declaresWhatsTested, () => a callback function runs the test)
     it('renders', () => {
         render(<About />);
     });
 
-    // Second Test
+    // snapshot test
     it('matches snapshot DOM node structure', () => {
         // renturns component snapshot
         const { asFragment } = render(<About />);
