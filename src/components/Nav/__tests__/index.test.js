@@ -22,7 +22,7 @@ describe('Nav component', () => {
             contactSelected={mockContactSelected}
             setContactSelected={mockSetContactSelected}
         />);
-    })
+    });
 
     it('matches snapshot', () => {
         const { asFragment } = render(<Nav
